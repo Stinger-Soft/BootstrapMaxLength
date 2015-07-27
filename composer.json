@@ -1,0 +1,32 @@
+{
+  "name": "stinger/bootstrap-maxlength-js-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony2 Bundle for Bootstrap MaxLength.js - An visual feedback indicator for the MaxLength attribute",
+  "keywords": [
+    "form",
+    "maxlength",
+    "html5",
+    "input",
+    "feedback",
+    "jquery-plugin",
+    "jquery"
+  ],
+  "homepage": "https://github.com/mimo84/bootstrap-maxlength",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oliver Kotte",
+      "email": "oliver.kotte@stinger-soft.net",
+      "homepage": "http://www.stinger-soft.net"
+    }
+  ],
+  "require": {
+    "symfony/framework-bundle": ">=2.1"
+  },
+  "autoload": {
+    "psr-0": {
+      "Stinger\\BootstrapMaxLengthJsBundle": ""
+    }
+  },
+  "target-dir": "Stinger/BootstrapMaxLengthJsBundle"
+}
